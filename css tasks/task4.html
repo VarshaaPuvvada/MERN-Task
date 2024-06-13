@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-body{
+            border:1px solid black;
+            width:500px;
+            height: 400px;
+        }
+        nav{
+            display:inline-block;
+            position: absolute;
+        }
+        .text{
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 10px;
+        }
+        .hover-button{
+            height:40px;
+            margin-left:0px;
+            margin-bottom:2px;
+            margin-top: 2px;
+            width: 40px;
+            border:none;
+            border-radius:0px 7px 7px 0px;
+        }
+        .hover-button:hover{
+            width:55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-body">
+        <nav>
+            <div style="margin-top:20px;"><button class="hover-button" style="background-color: rgb(19, 156, 60);"></button></div>
+            <div><button class="hover-button" style="background-color: rgb(0, 162, 255);"></button></div>
+            <div><button class="hover-button" style="background-color: rgb(255, 51, 0);"></button></div>
+            <div><button class="hover-button" style="background-color: rgb(61, 60, 60);"></button></div>
+        </nav>
+        <div class="text">
+            <h3>Hoverable Sidenav Buttons</h3>
+            <p>Hover over the buttons in the left side navigation to open them</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>

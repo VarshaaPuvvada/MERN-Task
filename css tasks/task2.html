@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vertical{
+            display:inline-block;
+            position:static;
+        }
+        .horizontal{
+            display:inline-block;
+            position:absolute;
+            margin-left:70px;
+            margin-top:50px;
+
+        }
+        .home{
+            background-color:orange;
+            display:inline-block;
+            width:200px;
+            height:40px;
+            color:white;
+            padding-left:20px;
+            border:none;
+            line-height:2px;
+        }
+        .cat{
+            background-color:rgb(137, 201, 221);
+            display:block;
+            width:200px;
+            height:220px;
+            color:blue;;
+            padding-left:20px;
+            padding-top:1px;
+            border:none;
+        }
+        .v{
+            font-size:x-large;
+            border: 1px solid black;
+            padding:10px;
+            width:220px;
+        }
+        .homeh{
+            color:white;
+            background-color: gray;
+            display:inline-block;
+            width:80px;
+            height:30px;
+            text-align:center;
+            margin-top: 10px;
+            padding-bottom: 15px;
+
+        }
+        .cath{
+            color:blue;
+            background-color: lightgray;
+            display:inline-block;
+            margin-left:0px;
+            margin-right:0px;
+            width:80px;
+            height:30px;
+            text-align:center;
+            margin-top: 10px;
+            padding-bottom: 15px;
+            border-left: 1px solid blue;
+            border-right:none;
+        }
+        .h{
+            border: 1px solid black;
+            padding:10px;
+            width:425px;
+            height:60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical">
+        <p style="font-weight: bold; padding-left:30px; display:inline-block">Vertical Navigation Bar</p>
+        <div class="v">
+            <div class="home">
+                <p>Home</p>
+            </div>
+            <div class="cat">
+                <p>Java</p>
+                <p>CSS</p>
+                <p>HTML</p>
+                <p>Bootstrap</p>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal">
+        <br><br><br>
+        <p style="font-weight: bold; padding-left:30px; text-align:center;">Horizontal Navigation Bar</p>
+        <br>
+        <div class="h">
+            <div class="homeh"><p>Home</p></div>
+            <div class="cath"><p>Java</p></div>
+            <div class="cath"><p>HTML</p></div>
+            <div class="cath"><p>CSS</p></div>
+            <div class="cath"><p>&nbsp;</p></div>
+        </div>
+    </div>
+    
+</body>
+</html>

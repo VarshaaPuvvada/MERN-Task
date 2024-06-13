@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            width:730px;
+            background-color:#a32b54;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            
+        }
+        .div2{
+            width:400px;
+            padding:50px;
+            margin-left:100px;
+            background-color:#732041 ;
+            height:300px;
+        }
+        .l{
+            color:white;
+            position:absolute;
+            left:190px;
+        }
+        .in,select,textarea{
+            position:absolute;
+            left:300px;
+        }
+        textarea{
+            width:170px;
+        }
+        .button{
+            margin-left:30px;
+            font-weight: bold;
+            width:320px;
+            height: 35px;
+            margin-top:10px;
+            border-radius: 5px;
+            border:none;
+            font-size: medium;
+            color: rgba(0, 0, 0, 0.747);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <label class="l">Name:</label>
+            <input class="in" type="text" placeholder="your name"><br><br>
+            <label class="l">Email:</label>
+            <input class="in" type="email" placeholder="your email"><br><br>
+            <label class="l">Password:</label>
+            <input class="in" type="password"><br><br>
+            <label class="l">Phone Number:</label>
+            <input  class="in" type="tel"><br><br>
+            <label class="l">Gender:</label>
+            <label class="l" style="position:absolute;left:300px;">Male:</label>
+            <input class="in" type="radio" style="position:absolute;left:335px;">
+            <label class="l" style="position:absolute;left:360px;">Female:</label>
+            <input class="in" type="radio" style="position:absolute;left:410px;">
+            <label class="l" style="position:absolute;left:435px;">Other:</label>
+            <input class="in" type="radio" style="position:absolute;left:475px;"><br><br>
+            <label  class="l">language:</label>
+            <select style="background-color: lightgrey;height:25px;">
+                <option>Select language</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+                <option>Malayalam</option>
+            </select><br><br>
+            <label class="l">Zip Code:</label>
+            <input class="in" type="text"><br><br>
+            <label class="l">About:</label>
+            <textarea placeholder="Write about yourself..." style="font-size: x-small;"></textarea> 
+            <br><br>
+            <button class="button">Register</button>
+        </div>
+    </div>
+</body>
+</html>
